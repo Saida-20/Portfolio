@@ -1,0 +1,55 @@
+html{
+    background-image: url('mouse.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a {
+    float: left;
+    color: rgb(190, 185, 185);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: dotted;
+    font-size: 20px;
+}
+.style{
+    padding-left: 16px;
+    text-align: center;
+}
+.style h1 {
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+}
+.style p {
+    color: rgb(99, 95, 95);
+    font-weight: lighter;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.social{
+    color: #aaaaaa;
+    font-size: 40px;
+    overflow: hidden;
+    padding-left: 19px;
+    margin-top: 50px;
+}
+.social:hover{
+    color: #333333;
+}
+.social p{
+    font-size: 10px;
+    display: inline;
+    overflow: hidden;
+}
+.icons{
+    border: 55px;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+

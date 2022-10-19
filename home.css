@@ -1,0 +1,57 @@
+html{
+    min-height: 100%;
+    background-image: url('black-business.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: black;
+    opacity: 1;
+    object-fit: cover;
+}
+.container{
+    margin-left: 50px;
+    overflow: hidden;
+}
+.navigation{
+    color: white;
+    font-size: small;
+    font-style: italic;
+    margin-right: 50px;
+}
+.navigation a{ 
+    color: rgb(190, 185, 185);
+    text-decoration: double;
+    font-size: 20px;
+    text-align: right;
+    float: left;
+    padding: 14px 16px;
+}
+
+#intro{
+    text-align: center;
+    justify-content: center;
+    color: rgb(190, 185, 185);
+    margin-top: 250px;
+    margin-right: 300px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    text-align: center;
+    width: 80%;
+    margin-top: 300px;
+    margin-right: 500px;
+    overflow: hidden;
+}
+.footer li{
+    display: inline;
+}
+.footer a{
+    color:rgb(190, 185, 185);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 50px;
+}
+#list{
+    text-align: center;
+}
